@@ -16,6 +16,7 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertEqual("1", self.fb.run(1, 2))
         self.assertEqual("1, 2", self.fb.run(1, 3))
         self.assertEqual("1, 2, Fizz", self.fb.run(1, 4))
+        self.assertEqual("1, 2, Fizz, 4, Buzz", self.fb.run(1, 6))
 
 
 if __name__ == "__main__":
