@@ -4,7 +4,7 @@ class FizzBuzz:
 
     def run(self, start, stop):
         """Run the game"""
-        result = ""
+        result = []
         for i in range(start, stop):
-            result += str(i)
-        return result
+            result.append(str(i))
+        return ", ".join(result)
