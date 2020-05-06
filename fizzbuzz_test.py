@@ -8,7 +8,8 @@ class FizzBuzzTest(unittest.TestCase):
 
     def test_fizzbuzz(self):
         """Test the FizzBuzz rules"""
-        self.assertEqual("", FizzBuzz().run())
+        self.assertEqual("", FizzBuzz().run(1, 1))
+        self.assertEqual("1", FizzBuzz().run(1, 2))
 
 
 if __name__ == "__main__":

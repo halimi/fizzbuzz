@@ -2,6 +2,9 @@
 class FizzBuzz:
     """FizzBuzz"""
 
-    def run(self):
+    def run(self, start, stop):
         """Run the game"""
-        return ""
+        result = ""
+        for i in range(start, stop):
+            result += str(i)
+        return result
